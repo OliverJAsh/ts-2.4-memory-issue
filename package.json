@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "engines": {
+    "node": "^6.10.2"
+  },
+  "scripts": {
+    "compile": "rm -rf target && mkdir target && tsc && cp -r ./src/client ./target",
+    "startDev": "nodemon --exec 'yarn run compile && node' --watch ./src --ext ts ./entry.js",
+    "start": "yarn run compile && node ./entry.js",
+    "test": " yarn compile && node ./entry-tests.js",
+    "lint": "tslint --project tsconfig.json --type-check './{tests,src}/**/*.ts'"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-redis": "^3.2.0",
+    "data.either": "^1.5.0",
+    "data.validation": "^1.3.1",
+    "date-fns": "^1.28.3",
+    "denodeify": "^1.2.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fp-ts": "^0.2.6",
+    "io-ts": "^0.3.1",
+    "io-ts-reporters": "^0.0.9",
+    "iterable-transformers": "^0.0.2",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.5.0",
+    "public-ip": "^2.3.3",
+    "ramda": "^0.23.0",
+    "redis": "^2.7.1",
+    "source-map-support": "^0.4.14",
+    "typescript": "next",
+    "typescript-string-enums": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/connect-redis": "^0.0.5",
+    "@types/denodeify": "^1.2.30",
+    "@types/express": "^4.0.35",
+    "@types/express-session": "^0.0.32",
+    "@types/lodash": "^4.14.63",
+    "@types/node": "^7.0.14",
+    "@types/node-fetch": "^1.6.7",
+    "@types/ramda": "^0.0.7",
+    "@types/redis": "^0.12.36",
+    "blue-tape": "^1.0.0",
+    "nodemon": "^1.11.0",
+    "tslint": "^5.1.0"
+  }
+}
