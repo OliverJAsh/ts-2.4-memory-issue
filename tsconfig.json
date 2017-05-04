@@ -4,19 +4,10 @@
         "target": "es6",
         "strict": true,
         "noImplicitReturns": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "sourceMap": true,
-
-        // AsyncIterable support
-        "lib": [
-            "esnext"
-        ],
-        "outDir": "./target",
-        "allowSyntheticDefaultImports": true,
-        "allowJs": true
+        "outDir": "./target"
     },
-    "include": [
+    "files": [
         "./src/routes.ts"
     ]
 }
