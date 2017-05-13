@@ -3,20 +3,20 @@
 
 
 fp-ts@^0.2.0, fp-ts@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-0.2.6.tgz#0ee0523bb78f65aa5b124cff928700f0d6cbae67"
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-0.2.7.tgz#60e6b4c233d8c16a2720dd0416a3b1b57d2ce81a"
   dependencies:
     rxjs "^5.0.0"
 
 io-ts@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-0.3.1.tgz#51ea94ab7401fb26d1509a18e2ea0ed672dca628"
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-0.3.2.tgz#7aa25a60527f4c11007c446b2accea26aaf3c099"
   dependencies:
     fp-ts "^0.2.0"
 
 rxjs@^5.0.0:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.3.1.tgz#9ecc9e722247e4f4490d30a878577a3740fd0cb7"
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.4.0.tgz#a7db14ab157f9d7aac6a56e655e7a3860d39bf26"
   dependencies:
     symbol-observable "^1.0.1"
 
@@ -25,5 +25,5 @@ symbol-observable@^1.0.1:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 
 typescript@next:
-  version "2.4.0-dev.20170504"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.0-dev.20170504.tgz#339cd61ac33be86b03d26f1f2a030d1634e2d617"
+  version "2.4.0-dev.20170513"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.0-dev.20170513.tgz#8eada73ab61821276c2c760d99b2579b7f7c8605"
