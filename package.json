@@ -2,7 +2,8 @@
   "private": true,
   "dependencies": {
     "fp-ts": "^0.2.6",
-    "io-ts": "^0.3.1",
+    "iterable-transformers": "ts-insiders",
+    "twitter-api-ts": "0.0.1",
     "typescript": "next"
   }
 }

@@ -5,9 +5,14 @@
         "strict": true,
         "noImplicitReturns": true,
         "sourceMap": true,
-        "outDir": "./target"
+        "outDir": "./target",
+
+        // AsyncIterable support
+        "lib": [
+            "esnext"
+        ]
     },
     "files": [
-        "./src/routes.ts"
+        "./src/publication.ts"
     ]
 }
