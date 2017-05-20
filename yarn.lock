@@ -25,5 +25,5 @@ symbol-observable@^1.0.1:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 
 typescript@next:
-  version "2.4.0-dev.20170513"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.0-dev.20170513.tgz#8eada73ab61821276c2c760d99b2579b7f7c8605"
+  version "2.4.0-dev.20170519"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.0-dev.20170519.tgz#f25373f3e9497843ee90718490f6a721b61ac857"
